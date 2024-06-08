@@ -9,7 +9,12 @@ const View = () => {
             (response)=>{
                 changeData(response.data)
             }
-        ).catch().finally()
+        ).catch(
+            (error)=>{
+                console.log(error.message)
+                alert(error.message)
+            }
+        ).finally()
     }
     useEffect(()=>{fetchData()},[])
     return (
