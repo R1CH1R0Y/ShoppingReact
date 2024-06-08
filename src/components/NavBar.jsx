@@ -16,6 +16,7 @@ const NavBar = () => {
         <Link class="nav-link active" to="/remove">Remove Product</Link>
         <Link class="nav-link active" to="/search">Search Product</Link>
         <Link class="nav-link active" to="/view">Product List</Link>
+        <Link class="nav-link active" to="/jsonobj">New Products</Link>
       </div>
     </div>
   </div>
